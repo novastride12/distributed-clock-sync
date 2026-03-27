@@ -2,8 +2,7 @@ import threading
 import subprocess
 import time
 
-NUM_CLIENTS = 10
-
+NUM_CLIENTS = 50
 def run_client():
     subprocess.run(["python", "client.py"])
 

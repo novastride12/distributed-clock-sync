@@ -4,6 +4,7 @@ import json
 import threading
 from security import generate_hmac, verify_hmac
 
+
 HOST = "127.0.0.1"
 PORT = 5000
 
